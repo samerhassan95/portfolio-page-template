@@ -1,0 +1,290 @@
+/* global style */
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+.clear {
+  clear: both;
+}
+body {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* navbar style */
+.topnav {
+  background-color: #2c3e50;
+  color: #fdffff;
+  text-decoration: none;
+  width: 100%;
+  height: 15vh;
+  font-family: "Outfit", sans-serif;
+  position: fixed;
+  z-index: 99;
+}
+/* navbar title */
+.topnav .adress {
+  color: #fdffff;
+  float: left;
+  width: 30%;
+  text-align: center;
+  height: 25%;
+  padding: 1%;
+}
+/* navbar links container */
+.topnav .btns-container {
+  color: #fdffff;
+  float: left;
+  text-align: center;
+  margin: -3% 65%;
+  width: 40%;
+}
+/* navbar links  */
+.topnav .btns-container .topnav-btns {
+  background: transparent;
+  color: #fdffff;
+  float: left;
+  margin: 3%;
+  padding: 3%;
+  text-decoration: none;
+  list-style: none;
+}
+/* navbar links  hoover */
+.topnav .btns-container .topnav-btns :hover {
+  color: #1abc9c;
+}
+/* navbar link */
+.topnav .btns-container .topnav-btns .link {
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10%;
+  /* font-size: 1rem; */
+  font-weight: bold;
+}
+
+/* slider style */
+.iti-students {
+  background-color: #1abc9c;
+  color: #fdffff;
+  height: 80vh;
+}
+/* slider center */
+.iti-students .center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* slider avatar */
+.iti-students .center .avatar {
+  width: 60%;
+}
+/* slider underline */
+.iti-students .center .line {
+  background-color: #ffffff;
+  width: 20%;
+  display: inline-block;
+}
+
+/* portfolio style */
+.portfolio {
+  height: 80vh;
+  background-color: #fdffff;
+}
+/* portfolio all container */
+.portfolio .portfolio-design {
+  text-align: center;
+  margin-top: 5%;
+}
+.portfolio .portfolio-design .p {
+  color: #2c3e50;
+}
+.portfolio .portfolio-design .i {
+  color: #2c3e50;
+}
+.portfolio .portfolio-design .line {
+  background-color: #2c3e50;
+  width: 4%;
+  display: inline-block;
+  height: 3px;
+}
+/* portfolio images container */
+.portfolio .portfolio-design .imgs {
+  width: 60%;
+  float: left;
+  margin: 1% 20% 0% 20%;
+  text-align: center;
+}
+/* portfolio photos */
+.portfolio .portfolio-design .imgs .photos {
+  width: 30%;
+  padding: 1%;
+  height: 15%;
+  border-radius: 7%;
+}
+
+/* (about) section style */
+.about {
+  background-color: #1abc9c;
+  color: #fdffff;
+  height: 60vh;
+}
+/* (about) container */
+.about .about-design {
+  text-align: center;
+  margin: 8% 25%;
+  width: 50%;
+  height: 50%;
+  padding: 4%;
+}
+.about .about-design .line {
+  background-color: #fdffff;
+  width: 11%;
+  display: inline-block;
+  height: 3px;
+}
+
+/* (about) left text */
+.about .about-design .about-text-left {
+  width: 53%;
+  text-align: left;
+  padding-top: 3%;
+  margin-top: 2%;
+  padding-top: 3%;
+}
+/* (about) right text */
+.about .about-design .about-text-right {
+  width: 51%;
+  text-align: left;
+  margin-left: 57%;
+  margin-bottom: 16%;
+  margin-top: -12%;
+}
+
+/* contact me section style */
+.contact-me {
+  height: 100vh;
+  background-color: #fdffff;
+  text-align: center;
+}
+/* contact me container */
+.contact-me .contact-design {
+  margin: 8%;
+  color: #2c3e50;
+}
+.contact-me .contact-design .line {
+  background-color: #2c3e50;
+  width: 4%;
+  display: inline-block;
+  height: 3px;
+}
+/* contact me form */
+.contact-me .contact-design .forms {
+  padding: 0% 21%;
+}
+/* contact me form send-button */
+.send-btn {
+  background-color: #1abc9c;
+  border-radius: 10%;
+  width: 5%;
+  height: 6vh;
+  color: #ffffff;
+  margin-right: 19%;
+  margin-top: 0%;
+  font-size: 19px;
+}
+
+.contact-me .contact-design .forms .input-divs {
+  position: relative;
+  width: 50%;
+  margin: 8% 0 0 25%;
+}
+.contact-me .contact-design .forms .input-divs .inputs {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #000000;
+}
+.contact-me .contact-design .forms .input-divs label {
+  position: absolute;
+  left: 0%;
+  top: -58%;
+  transition: 0.2s;
+  font-size: 20px;
+}
+.contact-me .contact-design .forms .input-divs .inputs:focus ~ label,
+.contact-me .contact-design .forms .input-divs .inputs:valid ~ label {
+  top: -95%;
+  font-size: 15px;
+}
+/* footer style */
+footer .text-area {
+  width: 100%;
+  height: 20vh;
+  margin: 0 auto;
+  padding-top: 2.5%;
+  background-color: #2c3e50;
+}
+/* footer container */
+footer .text-area .text {
+  float: left;
+  color: #fdffff;
+  width: 31%;
+  margin: 0% 1%;
+  text-align: center;
+}
+/* footer social network buttons */
+footer .text-area .text button {
+  background-color: #2c3e50;
+  color: #fdffff;
+  border: 2px solid #fdffff;
+  padding: 3% 5%;
+  border-radius: 50%;
+}
+/* footer social network buttons  hoover*/
+footer .text-area .text i:hover {
+  opacity: 0.7;
+}
+/* footer head texts  */
+footer .text-area .text h4 {
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+/* footer link */
+footer .text-area .text a {
+  color: #1abc9c;
+}
+/* footer copyrights */
+footer .copyright {
+  color: #fdffff;
+  background-color: #1a252f;
+  height: 4vh;
+  padding: 0% 30%;
+  text-align: center;
+}
+/* active class */
+.active {
+  background-color: #1abc9c;
+  color: white;
+}
+/* scrolling  */
+.scrolling {
+  height: 8vh;
+  font-size: 15px;
+}
+#exclamation1,
+#exclamation2,
+#exclamation3,
+#exclamation4 {
+  display: none;
+  color: #ff0000;
+}
